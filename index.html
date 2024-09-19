@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallante</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+        <div  class="logo">
+            <h1>Gallante</h1>
+        </div>
+        <button id="open-btn" class="bar" style="background: transparent; border: none; color: #fff;"><i class="fa-solid fa-bars"></i></button>
+        <div id="containing-links" class="nav-links">
+        <button id="close-btn" style="background: transparent; border: none; color: #000; display: none; position: absolute; top: 5%; right: 10%; cursor: pointer; font-size: 1.5rem;"><i class="fa-solid fa-x"></i></i></button>
+        <nav class="header-nav">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Visit</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+        <div class="container-text-main">
+            <div class="container-header-p">
+            <p class="header-p">| Enjoy a meal with us |</p>
+            </div>
+            <p class="header-p-desc">True elegance is not about the price tag, but about the experience and  the memories you make.</p>
+
+
+            </ul>
+        </div>
+
+        <div class="button-header">
+            <button>Visit us</button>
+        </div>
+    </header>
+    <main>
+      <h1 id="#about" class="main-h1">| About us |</h1>
+        <div class="hero-image">
+           <div class="hero-text">
+              <h1>Gallante originated  from the French word "gallant" meaning chivalrous and courteous.Now it has a wide spread over the worlds culinary scene.</h1>
+           </div>
+        </div>
+  <br>
+  <div class="content">
+    <p>| We combine traditional preparations with local ingredients for dishes that are authentic to both their Spanish origins and New York setting. Learn more about our <a style="text-decoration: none;color: crimson;" href="#">STORY</a>. |</p>
+  </div>
+     <br>
+     <br>
+    <hr style="background-color: rgb(9, 9, 9); margin: auto; height: 2px;">
+
+    <h1 style="font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    font-weight: lighter;">| Story |</h1>
+
+    <div class="container-story">
+        
+        <div class="story-image">
+            <img src="images/story.png" alt="Our story image">
+        </div>
+
+        <div class="story-text">
+            
+
+            <p>Welcome to Gallante, where elegance meets culinary artistry.
+
+                At Gallante, we believe that dining is more than just a meal—it’s an experience. Located in the heart of the city, our restaurant offers a blend of contemporary flavors and timeless sophistication. Step inside and be transported by our warm ambiance, where soft lighting, vintage decor, and soothing melodies create the perfect backdrop for any occasion.
+                
+                Our menu is crafted with the finest ingredients, inspired by both local traditions and international influences. Whether you’re joining us for a casual lunch or an intimate dinner, every dish at Gallante is designed to delight your senses and create lasting memories.
+                
+                Join us and discover why Gallante is more than a restaurant—it's a place to celebrate food, friendship, and the art of fine dining. </p>
+        </div>
+    </div>
+
+
+    <div class="reservation-container">
+        <h1 class="title">MAKE A RESERVATION</h1>
+        <p class="description">
+            Use this : <a href="#">Reserve a table</a>, and fathom the deliciousness of our food.<a href="#">here</a>.
+        </p>
+        
+        <div class="form-container">
+            <form action="#">
+                <div class="form-row">
+                    <label for="party-size">Party size</label>
+                    <select id="party-size" name="party-size">
+                        <option value="2">2 guests</option>
+                        <option value="3">3 guests</option>
+                        <option value="4">4 guests</option>
+                        <option value="5">5 guests</option>
+                        <option value="6">6 guests</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" value="2024-09-19">
+                </div>
+
+                <div class="form-row">
+                    <label for="time">Time</label>
+                    <select id="time" name="time">
+                        <option value="19:00">7:00 PM</option>
+                        <option value="19:30">7:30 PM</option>
+                        <option value="20:00">8:00 PM</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-book">Book now</button>
+            </form>
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; width: auto; padding: 5% 0; text-align: center; align-items: center; box-shadow: 5px 5px 15px rgba(0,0,0,0.2);" class="book-container">
+        <h1 class="title" id="tie">| LET'S KEEP IN TOUCH ! |</h1>
+        <label for="name" id="keep-label">Email : </label>
+        <input type="text" id="email" name="email" placeholder=" Enter Your Email">
+        <label for="password">Password :</label>
+        <input type="password" id="pass" name="pass" placeholder=" Enter Your Password">
+        <textarea name="leave" id="leaving" placeholder="Enter a lovely message, which we won't bother reading." rows="5" cols="6"></textarea>
+        <input id="submiting" type="submit">
+    </div>
+    </main>
+    <footer>
+          <div class="container">
+            <div class="column">
+              <h2>CONTACT</h2>
+              <p>123 Demo Street</p>
+              <p>New York, NY 12345</p>
+              <p>email@example.com</p>
+              <p>(555) 555-5555</p>
+            </div>
+            <div class="column">
+              <h1 style="margin-bottom: 20px;">Gallante</h1>
+             <div class="contact">  
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fab fa-instagram"></i><i class="fab fa-twitter"></i></div>
+             <br>
+              <p>Made by Gallante</p>
+            </div>
+            <div class="column">
+              <h2>HOURS</h2>
+              <p>Mon-Wed 6-11</p>
+              <p>Thu-Sat 4-12</p>
+              <p>Sun 3-10</p>
+              <p>Make a Reservation</p>
+            </div>
+          </div>
+          <hr>
+          <div style="display: flex; justify-content: center; align-items: center;">
+            <p style="font-weight: bold; margin-top: 50px;">&copy;Copy Rights Now Truly Reserved For Me  <i class="fa fa-heart"></i></p>
+          </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/e8f58240e2.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
